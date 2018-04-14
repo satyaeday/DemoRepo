@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="maven example Suite" duration-ms="14" started-at="2018-04-14T21:29:55Z" finished-at="2018-04-14T21:29:55Z">
+    <groups>
+    </groups>
+    <test name="maven TestCases" duration-ms="14" started-at="2018-04-14T21:29:55Z" finished-at="2018-04-14T21:29:55Z">
+      <class name="com.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="testOneHomePage()[pri:0, instance:com.qa.tests.HomePageTest@47f6473]" name="testOneHomePage" duration-ms="4" started-at="2018-04-14T16:29:55Z" finished-at="2018-04-14T16:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneHomePage -->
+        <test-method status="PASS" signature="testTwoHomePage()[pri:0, instance:com.qa.tests.HomePageTest@47f6473]" name="testTwoHomePage" duration-ms="0" started-at="2018-04-14T16:29:55Z" finished-at="2018-04-14T16:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoHomePage -->
+      </class> <!-- com.qa.tests.HomePageTest -->
+    </test> <!-- maven TestCases -->
+  </suite> <!-- maven example Suite -->
+</testng-results>

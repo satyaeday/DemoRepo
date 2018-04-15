@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="maven example Suite">
+<suite name="GRID  example Suite">
     
    	
-  <test name="maven TestCases">
+  <test name="GRID TestCases">
       
     <classes>
         
-      <class name="com.qa.tests.GoogleHomePageTest"/>
+      <class name="com.qa.tests.grid.GridExampleTest"/>
      
     </classes>
   </test> <!-- Test -->

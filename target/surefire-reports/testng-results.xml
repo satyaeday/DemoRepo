@@ -1,21 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="maven example Suite" duration-ms="14" started-at="2018-04-14T21:29:55Z" finished-at="2018-04-14T21:29:55Z">
+  <suite name="Parallel test suite" duration-ms="9975" started-at="2018-04-14T22:54:30Z" finished-at="2018-04-14T22:54:40Z">
     <groups>
     </groups>
-    <test name="maven TestCases" duration-ms="14" started-at="2018-04-14T21:29:55Z" finished-at="2018-04-14T21:29:55Z">
-      <class name="com.qa.tests.HomePageTest">
-        <test-method status="PASS" signature="testOneHomePage()[pri:0, instance:com.qa.tests.HomePageTest@47f6473]" name="testOneHomePage" duration-ms="4" started-at="2018-04-14T16:29:55Z" finished-at="2018-04-14T16:29:55Z">
+    <test name="InternetExplorer  Test" duration-ms="5025" started-at="2018-04-14T22:54:30Z" finished-at="2018-04-14T22:54:35Z">
+      <class name="com.qa.tests.GoogleHomePageTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.tests.GoogleHomePageTest@458ad742]" name="openBrowser" is-config="true" duration-ms="2110" started-at="2018-04-14T17:54:30Z" finished-at="2018-04-14T17:54:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOneHomePage -->
-        <test-method status="PASS" signature="testTwoHomePage()[pri:0, instance:com.qa.tests.HomePageTest@47f6473]" name="testTwoHomePage" duration-ms="0" started-at="2018-04-14T16:29:55Z" finished-at="2018-04-14T16:29:55Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.qa.tests.GoogleHomePageTest@458ad742]" name="verifyGooglePageTittle" duration-ms="2358" started-at="2018-04-14T17:54:32Z" finished-at="2018-04-14T17:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.tests.GoogleHomePageTest@458ad742]" name="closeBrowser" is-config="true" duration-ms="544" started-at="2018-04-14T17:54:35Z" finished-at="2018-04-14T17:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.tests.GoogleHomePageTest -->
+    </test> <!-- InternetExplorer  Test -->
+    <test name="chrome  Test" duration-ms="7639" started-at="2018-04-14T22:54:30Z" finished-at="2018-04-14T22:54:38Z">
+      <class name="com.qa.tests.GoogleHomePageTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.tests.GoogleHomePageTest@4590c9c3]" name="openBrowser" is-config="true" duration-ms="2269" started-at="2018-04-14T17:54:30Z" finished-at="2018-04-14T17:54:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.qa.tests.GoogleHomePageTest@4590c9c3]" name="verifyGooglePageTittle" duration-ms="4776" started-at="2018-04-14T17:54:32Z" finished-at="2018-04-14T17:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.tests.GoogleHomePageTest@4590c9c3]" name="closeBrowser" is-config="true" duration-ms="584" started-at="2018-04-14T17:54:37Z" finished-at="2018-04-14T17:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.tests.GoogleHomePageTest -->
+    </test> <!-- chrome  Test -->
+    <test name="Firefox Test" duration-ms="9975" started-at="2018-04-14T22:54:30Z" finished-at="2018-04-14T22:54:40Z">
+      <class name="com.qa.tests.GoogleHomePageTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.tests.GoogleHomePageTest@234bef66]" name="openBrowser" is-config="true" duration-ms="4136" started-at="2018-04-14T17:54:30Z" finished-at="2018-04-14T17:54:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.qa.tests.GoogleHomePageTest@234bef66]" name="verifyGooglePageTittle" duration-ms="5499" started-at="2018-04-14T17:54:34Z" finished-at="2018-04-14T17:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGooglePageTittle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.tests.GoogleHomePageTest@234bef66]" name="closeBrowser" is-config="true" duration-ms="330" started-at="2018-04-14T17:54:40Z" finished-at="2018-04-14T17:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.tests.GoogleHomePageTest -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Parallel test suite -->
+  <suite name="maven example Suite" duration-ms="1" started-at="2018-04-14T22:54:40Z" finished-at="2018-04-14T22:54:40Z">
+    <groups>
+    </groups>
+    <test name="maven TestCases" duration-ms="1" started-at="2018-04-14T22:54:40Z" finished-at="2018-04-14T22:54:40Z">
+      <class name="com.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="testTwoHomePage()[pri:0, instance:com.qa.tests.HomePageTest@1efbd816]" name="testTwoHomePage" duration-ms="0" started-at="2018-04-14T17:54:40Z" finished-at="2018-04-14T17:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTwoHomePage -->
+        <test-method status="PASS" signature="testOneHomePage()[pri:0, instance:com.qa.tests.HomePageTest@1efbd816]" name="testOneHomePage" duration-ms="0" started-at="2018-04-14T17:54:40Z" finished-at="2018-04-14T17:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneHomePage -->
       </class> <!-- com.qa.tests.HomePageTest -->
     </test> <!-- maven TestCases -->
   </suite> <!-- maven example Suite -->
+  <suite name="maven example Suite (0)" duration-ms="1" started-at="2018-04-14T22:54:40Z" finished-at="2018-04-14T22:54:40Z">
+    <groups>
+    </groups>
+    <test name="maven TestCases" duration-ms="1" started-at="2018-04-14T22:54:40Z" finished-at="2018-04-14T22:54:40Z">
+      <class name="com.qa.tests.LoginTest">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.qa.tests.LoginTest@5ae9a829]" name="testOne" duration-ms="0" started-at="2018-04-14T17:54:40Z" finished-at="2018-04-14T17:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.qa.tests.LoginTest@5ae9a829]" name="testTwo" duration-ms="0" started-at="2018-04-14T17:54:40Z" finished-at="2018-04-14T17:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- com.qa.tests.LoginTest -->
+    </test> <!-- maven TestCases -->
+  </suite> <!-- maven example Suite (0) -->
 </testng-results>

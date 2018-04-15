@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [parallel  example Suite]">
+  <test name="Firefox Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.tests.GoogleHomePageTest">
+        <methods>
+          <include name="verifyGooglePageTittle"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.qa.tests.GoogleHomePageTest -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [parallel  example Suite] -->

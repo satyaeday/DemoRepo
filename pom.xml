@@ -138,7 +138,7 @@
 					<configuration>
 				            <suiteXmlFiles>
 				            
-				            	<suiteXmlFile>testng.xml</suiteXmlFile>
+				            	<suiteXmlFile>testngParallelBrowser.xml</suiteXmlFile>
 								<suiteXmlFile>testng2.xml</suiteXmlFile>
 								<suiteXmlFile>testng3.xml</suiteXmlFile>
 							        

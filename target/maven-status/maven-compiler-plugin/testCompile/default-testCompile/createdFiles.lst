@@ -1,3 +1,4 @@
 com\qa\tests\LoginTest.class
-com\qa\tests\GoogleHomePageTest.class
 com\qa\tests\HomePageTest.class
+com\qa\tests\grid\GridExampleTest.class
+com\qa\tests\GoogleHomePageTest.class

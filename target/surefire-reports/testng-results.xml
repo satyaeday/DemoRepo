@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel test suite" duration-ms="9975" started-at="2018-04-14T22:54:30Z" finished-at="2018-04-14T22:54:40Z">
+  <suite name="Parallel test suite" duration-ms="9558" started-at="2018-04-15T17:24:34Z" finished-at="2018-04-15T17:24:44Z">
     <groups>
     </groups>
-    <test name="InternetExplorer  Test" duration-ms="5025" started-at="2018-04-14T22:54:30Z" finished-at="2018-04-14T22:54:35Z">
+    <test name="InternetExplorer  Test" duration-ms="4958" started-at="2018-04-15T17:24:34Z" finished-at="2018-04-15T17:24:39Z">
       <class name="com.qa.tests.GoogleHomePageTest">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.tests.GoogleHomePageTest@458ad742]" name="openBrowser" is-config="true" duration-ms="2110" started-at="2018-04-14T17:54:30Z" finished-at="2018-04-14T17:54:32Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.tests.GoogleHomePageTest@6ea12c19]" name="openBrowser" is-config="true" duration-ms="1622" started-at="2018-04-15T12:24:34Z" finished-at="2018-04-15T12:24:36Z">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.qa.tests.GoogleHomePageTest@458ad742]" name="verifyGooglePageTittle" duration-ms="2358" started-at="2018-04-14T17:54:32Z" finished-at="2018-04-14T17:54:35Z">
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.qa.tests.GoogleHomePageTest@6ea12c19]" name="verifyGooglePageTittle" duration-ms="2653" started-at="2018-04-15T12:24:36Z" finished-at="2018-04-15T12:24:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGooglePageTittle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.tests.GoogleHomePageTest@458ad742]" name="closeBrowser" is-config="true" duration-ms="544" started-at="2018-04-14T17:54:35Z" finished-at="2018-04-14T17:54:35Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.tests.GoogleHomePageTest@6ea12c19]" name="closeBrowser" is-config="true" duration-ms="671" started-at="2018-04-15T12:24:38Z" finished-at="2018-04-15T12:24:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.qa.tests.GoogleHomePageTest -->
     </test> <!-- InternetExplorer  Test -->
-    <test name="chrome  Test" duration-ms="7639" started-at="2018-04-14T22:54:30Z" finished-at="2018-04-14T22:54:38Z">
+    <test name="chrome  Test" duration-ms="7465" started-at="2018-04-15T17:24:34Z" finished-at="2018-04-15T17:24:42Z">
       <class name="com.qa.tests.GoogleHomePageTest">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.tests.GoogleHomePageTest@4590c9c3]" name="openBrowser" is-config="true" duration-ms="2269" started-at="2018-04-14T17:54:30Z" finished-at="2018-04-14T17:54:32Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.tests.GoogleHomePageTest@5056dfcb]" name="openBrowser" is-config="true" duration-ms="3018" started-at="2018-04-15T12:24:34Z" finished-at="2018-04-15T12:24:37Z">
           <params>
             <param index="0">
               <value>
@@ -41,19 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.qa.tests.GoogleHomePageTest@4590c9c3]" name="verifyGooglePageTittle" duration-ms="4776" started-at="2018-04-14T17:54:32Z" finished-at="2018-04-14T17:54:37Z">
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.qa.tests.GoogleHomePageTest@5056dfcb]" name="verifyGooglePageTittle" duration-ms="3386" started-at="2018-04-15T12:24:37Z" finished-at="2018-04-15T12:24:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGooglePageTittle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.tests.GoogleHomePageTest@4590c9c3]" name="closeBrowser" is-config="true" duration-ms="584" started-at="2018-04-14T17:54:37Z" finished-at="2018-04-14T17:54:38Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.tests.GoogleHomePageTest@5056dfcb]" name="closeBrowser" is-config="true" duration-ms="1051" started-at="2018-04-15T12:24:41Z" finished-at="2018-04-15T12:24:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.qa.tests.GoogleHomePageTest -->
     </test> <!-- chrome  Test -->
-    <test name="Firefox Test" duration-ms="9975" started-at="2018-04-14T22:54:30Z" finished-at="2018-04-14T22:54:40Z">
+    <test name="Firefox Test" duration-ms="9558" started-at="2018-04-15T17:24:34Z" finished-at="2018-04-15T17:24:44Z">
       <class name="com.qa.tests.GoogleHomePageTest">
-        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.tests.GoogleHomePageTest@234bef66]" name="openBrowser" is-config="true" duration-ms="4136" started-at="2018-04-14T17:54:30Z" finished-at="2018-04-14T17:54:34Z">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.qa.tests.GoogleHomePageTest@61dc03ce]" name="openBrowser" is-config="true" duration-ms="4390" started-at="2018-04-15T12:24:34Z" finished-at="2018-04-15T12:24:38Z">
           <params>
             <param index="0">
               <value>
@@ -64,43 +64,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.qa.tests.GoogleHomePageTest@234bef66]" name="verifyGooglePageTittle" duration-ms="5499" started-at="2018-04-14T17:54:34Z" finished-at="2018-04-14T17:54:40Z">
+        <test-method status="PASS" signature="verifyGooglePageTittle()[pri:0, instance:com.qa.tests.GoogleHomePageTest@61dc03ce]" name="verifyGooglePageTittle" duration-ms="4798" started-at="2018-04-15T12:24:38Z" finished-at="2018-04-15T12:24:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGooglePageTittle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.tests.GoogleHomePageTest@234bef66]" name="closeBrowser" is-config="true" duration-ms="330" started-at="2018-04-14T17:54:40Z" finished-at="2018-04-14T17:54:40Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.tests.GoogleHomePageTest@61dc03ce]" name="closeBrowser" is-config="true" duration-ms="360" started-at="2018-04-15T12:24:43Z" finished-at="2018-04-15T12:24:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.qa.tests.GoogleHomePageTest -->
     </test> <!-- Firefox Test -->
   </suite> <!-- Parallel test suite -->
-  <suite name="maven example Suite" duration-ms="1" started-at="2018-04-14T22:54:40Z" finished-at="2018-04-14T22:54:40Z">
+  <suite name="GRID  example Suite" duration-ms="6439" started-at="2018-04-15T17:24:44Z" finished-at="2018-04-15T17:24:50Z">
     <groups>
     </groups>
-    <test name="maven TestCases" duration-ms="1" started-at="2018-04-14T22:54:40Z" finished-at="2018-04-14T22:54:40Z">
-      <class name="com.qa.tests.HomePageTest">
-        <test-method status="PASS" signature="testTwoHomePage()[pri:0, instance:com.qa.tests.HomePageTest@1efbd816]" name="testTwoHomePage" duration-ms="0" started-at="2018-04-14T17:54:40Z" finished-at="2018-04-14T17:54:40Z">
+    <test name="GRID TestCases" duration-ms="6439" started-at="2018-04-15T17:24:44Z" finished-at="2018-04-15T17:24:50Z">
+      <class name="com.qa.tests.grid.GridExampleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.grid.GridExampleTest@56f4468b]" name="setUp" is-config="true" duration-ms="3284" started-at="2018-04-15T12:24:44Z" finished-at="2018-04-15T12:24:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTwoHomePage -->
-        <test-method status="PASS" signature="testOneHomePage()[pri:0, instance:com.qa.tests.HomePageTest@1efbd816]" name="testOneHomePage" duration-ms="0" started-at="2018-04-14T17:54:40Z" finished-at="2018-04-14T17:54:40Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitleInIEBrowser()[pri:0, instance:com.qa.tests.grid.GridExampleTest@56f4468b]" name="testGooglePageTitleInIEBrowser" duration-ms="3057" started-at="2018-04-15T12:24:47Z" finished-at="2018-04-15T12:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGooglePageTitleInIEBrowser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.tests.grid.GridExampleTest@56f4468b]" name="closeBrowser" is-config="true" duration-ms="95" started-at="2018-04-15T12:24:50Z" finished-at="2018-04-15T12:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.tests.grid.GridExampleTest -->
+    </test> <!-- GRID TestCases -->
+  </suite> <!-- GRID  example Suite -->
+  <suite name="maven example Suite" duration-ms="1" started-at="2018-04-15T17:24:44Z" finished-at="2018-04-15T17:24:44Z">
+    <groups>
+    </groups>
+    <test name="maven TestCases" duration-ms="1" started-at="2018-04-15T17:24:44Z" finished-at="2018-04-15T17:24:44Z">
+      <class name="com.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="testOneHomePage()[pri:0, instance:com.qa.tests.HomePageTest@4de8b406]" name="testOneHomePage" duration-ms="0" started-at="2018-04-15T12:24:44Z" finished-at="2018-04-15T12:24:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOneHomePage -->
+        <test-method status="PASS" signature="testTwoHomePage()[pri:0, instance:com.qa.tests.HomePageTest@4de8b406]" name="testTwoHomePage" duration-ms="0" started-at="2018-04-15T12:24:44Z" finished-at="2018-04-15T12:24:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoHomePage -->
       </class> <!-- com.qa.tests.HomePageTest -->
     </test> <!-- maven TestCases -->
   </suite> <!-- maven example Suite -->
-  <suite name="maven example Suite (0)" duration-ms="1" started-at="2018-04-14T22:54:40Z" finished-at="2018-04-14T22:54:40Z">
+  <suite name="maven example Suite (0)" duration-ms="1" started-at="2018-04-15T17:24:44Z" finished-at="2018-04-15T17:24:44Z">
     <groups>
     </groups>
-    <test name="maven TestCases" duration-ms="1" started-at="2018-04-14T22:54:40Z" finished-at="2018-04-14T22:54:40Z">
+    <test name="maven TestCases" duration-ms="1" started-at="2018-04-15T17:24:44Z" finished-at="2018-04-15T17:24:44Z">
       <class name="com.qa.tests.LoginTest">
-        <test-method status="PASS" signature="testOne()[pri:0, instance:com.qa.tests.LoginTest@5ae9a829]" name="testOne" duration-ms="0" started-at="2018-04-14T17:54:40Z" finished-at="2018-04-14T17:54:40Z">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.qa.tests.LoginTest@548b7f67]" name="testOne" duration-ms="0" started-at="2018-04-15T12:24:44Z" finished-at="2018-04-15T12:24:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.qa.tests.LoginTest@5ae9a829]" name="testTwo" duration-ms="0" started-at="2018-04-14T17:54:40Z" finished-at="2018-04-14T17:54:40Z">
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.qa.tests.LoginTest@548b7f67]" name="testTwo" duration-ms="0" started-at="2018-04-15T12:24:44Z" finished-at="2018-04-15T12:24:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTwo -->
